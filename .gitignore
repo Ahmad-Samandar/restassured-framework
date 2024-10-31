@@ -15,6 +15,10 @@ target/
 # Ignore config.properties to prevent tracking sensitive data
 src/test/resources/config/config.properties
 
+# Ignore test data file
+src/test/resources/data/newAccountData.json
+
+
 ### Eclipse ###
 .apt_generated
 .classpath
