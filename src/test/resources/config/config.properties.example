@@ -5,8 +5,14 @@ environment=DEV
 # Token expiration time in minutes
 token.expiration.minutes=10
 
+# Choose which test suite to run: SMOKE or REGRESSION
+test.suite=
+
 # Credentials
 supervisor.username=
 supervisor.password=
 operator.username=
 operator.password=
+
+# Email domain for random email generation
+email.domain=
